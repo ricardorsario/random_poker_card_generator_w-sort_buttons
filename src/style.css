@@ -1,1 +1,138 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  margin: 1rem;
+  background-color: #5f6ff9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+
+label {
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 2px 5px #121b50;
+}
+
+input {
+  box-shadow: 0 2px 5px #121b50;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardsDivClass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f9f4ea;
+}
+
+.poker-card {
+  height: 8rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  margin-top: 1rem;
+
+  background-color: #f9f4ea;
+  box-shadow: 0 2px 9px #121b50;
+  font-size: 1.5rem;
+
+  padding: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.red {
+  color: #fd6061;
+}
+
+.blue {
+  color: #5f6ff9;
+}
+
+.card-number-center {
+  align-self: center;
+  font-weight: bold;
+}
+
+.suite1-to-the-left {
+  align-self: flex-start;
+}
+
+.suit2-to-the-right {
+  align-self: flex-end;
+}
+
+input {
+  border-radius: 0.3rem;
+  border: 0;
+  color: #5f6ff9;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+
+.button-pretty-1 {
+  background-color: #f9f4ea;
+  color: #5f6ff9;
+  border: 0;
+  border-radius: 0.3rem;
+  margin-left: 0.5rem;
+  box-shadow: 0 2px 5px #121b50;
+}
+
+.button-pretty-1:hover {
+  background-color: #fff;
+}
+
+.button-pretty-1:active {
+  background-color: #efe9df;
+}
+
+.button-pretty-2 {
+  background-color: #fd6061;
+  border: 0;
+  color: #f9f4ea;
+  border-radius: 0.3rem;
+  margin-left: 0.5rem;
+  box-shadow: 0 2px 5px #121b50;
+}
+
+.button-pretty-2:hover {
+  background-color: #ff767d;
+}
+
+.button-pretty-2:active {
+  background-color: #db4d54;
+}
+
+.button-pretty-3 {
+  background-color: #3c4481;
+  color: #f9f4ea;
+  border: 0;
+  border-radius: 0.3rem;
+  margin-left: 0.5rem;
+  box-shadow: 0 2px 5px #121b50;
+}
+
+.button-pretty-3:hover {
+  background-color: #485193;
+}
+
+.button-pretty-3:active {
+  background-color: #535ca6;
+}
